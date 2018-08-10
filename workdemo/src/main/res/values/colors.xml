@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLoginBtn">#5e82cf</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTopMenuBg">#387DDB</color>
+    <color name="colorTopMenuGray">#d1d0d0</color>
+    <color name="colorCharBlue">#37a9e0</color>
+    <color name="colorCharBlack">#000508</color>
+    <color name="colorLineDiliver">#dfdfdf</color>
+    <color name="colorLineBule">#387DDB</color>
+    <color name="colorListHeaderbg">#EAEAEB</color>
+    <color name="colorListHeadT">#252525</color>
+    <color name="colorBtnBg">#387DDB</color>
+    <color name="colorListContentT">#565656</color>
+    <color name="record_bg">#f6f6f6</color>
+    <color name="record_bg_pressed">#e2e2e2</color>
+    <color name="text_enable">#37a9e0</color>
+    <color name="text_disable">#b4b4b4</color>
+    <color name="transparent">#00000000</color>
+    <!-- 画笔颜色 -->
+    <color name="paint_red">#f12a1e</color>
+    <color name="paint_yellow">#fff600</color>
+    <color name="paint_blue">#72c6ff</color>
+    <color name="paint_green">#8cff1c</color>
+    <!-- 微信灰色背景 -->
+    <color name="gray_bg">#BFBFBF</color>
+    <color name="bottomChar">#4684D7</color>
+    <color name="selectBg">#C3C3C3</color>
+    <color name="itemTitleBg">#EFEFF4</color>
+    <color name="itemTitleChar">#030303</color>
+    <color name="searchLBg">#C8C8CE</color>
+    <color name="deatilsBuleChar">#55A9F2</color>
+    <color name="detailsBlackChar">#252525</color>
+    <color name="selectByConditionBg">#EEEEEE</color>
+    <color name="holo_blue">#FF33E5B5</color>
+</resources>
