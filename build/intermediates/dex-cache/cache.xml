@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_e783914d195b78b5a75b8841198432380baa278e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_848c3c87ac1554b5b04ce8dd78f92bd03de5acd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d47e899703e8c7e4b8d76f58d14a98a5de142744">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_20fdd8bf499f2192dc6b26bd8091c6dab5c764ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_7cd194c6f3f4f301c835750b93d55cdb37d12acf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_24699ab1b89d2c323b02df199543a1c0bb28c0c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_755f30e00114e91c8e8e5ac8483f4412d8ea1fd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_0bff987bc33ae0f82ad2aa1cd80c3c6694196576\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitWorkspace\workDemo\workdemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6206a5ce8cc2ed66922d06bbd10e3739c2d8a09f">
+        <dex dex="E:\gitWorkspace\workDemo\workdemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9a34341d823ed3043cf262ef9ef611f68ed5a482\classes.dex" />
+    </item>
+
+</items>

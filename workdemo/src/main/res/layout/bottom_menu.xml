@@ -7,6 +7,23 @@
     <LinearLayout
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL_calendar">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/iv_bottom_calendar"
+            android:src="@drawable/bottom_menu_04023"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/LL_community">
@@ -15,12 +32,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:id="@+id/iv_bottom_community"
-            android:src="@drawable/bottom_menu_04020"/>
+            android:src="@drawable/bottom_menu_04025"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:gravity="center_horizontal"
+        android:layout_weight="1"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,12 +49,12 @@
             android:layout_alignParentTop="true"
             android:id="@+id/iv_bottom_leaning"
             android:src="@drawable/bottom_menu_04026"/>
-
     </LinearLayout>
 
     <LinearLayout
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/LL_interlocution">
@@ -46,37 +64,22 @@
             android:layout_alignParentTop="true"
             android:id="@+id/iv_bottom_interlocution"
             android:src="@drawable/bottom_menu_04027"/>
-
     </LinearLayout>
 
     <LinearLayout
         android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/LL_calendar">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:id="@+id/iv_bottom_calendar"
-            android:src="@drawable/bottom_menu_04028"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:gravity="center_horizontal"
+        android:layout_weight="1"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/LL_mine">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:id="@+id/iv_bottom_mine"
             android:src="@drawable/bottom_menu_04029"/>
-
     </LinearLayout>
 
 </LinearLayout>

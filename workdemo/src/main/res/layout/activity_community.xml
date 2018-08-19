@@ -13,7 +13,7 @@
         android:orientation="vertical">
         <include layout="@layout/top_menu_community"
             android:id="@+id/communityTopMenu"
-            android:visibility="visible"/>
+            android:visibility="gone"/>
         <include layout="@layout/top_menu_learning"
             android:id="@+id/learningTopMenu"
             android:visibility="gone"/>
@@ -38,8 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:visibility="gone"
-                />
+                android:visibility="gone" />
         </FrameLayout>
 
     <include layout="@layout/bottom_menu" />

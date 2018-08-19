@@ -1,0 +1,76 @@
+@charset "utf-8";
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul {margin: 0;padding: 0}
+body {min-width: 320px;font-size: 14px;font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;color: #000;-webkit-text-size-adjust: none}
+fieldset,img {border: 0}
+ol,ul {list-style: none}
+address,em {font-style: normal}
+a {color: #000;text-decoration: none}
+table {border-collapse: collapse;}
+input{font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;;}
+.clearfix:after {clear: both;content: " ";display: block;font-size: 0;height: 0;visibility: hidden}
+.clearfix {zoom: 1}
+.dis_tab{display: table;width: 100%;}
+.dis_tab_c{display: table-cell;}
+* {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+:focus{outline:none;}
+
+/* ���ർ��ҳ */
+/* ���� */
+body{background-color: #f8f8f8;}
+.main{position: fixed;top: 0;left: 0;right:0;bottom:0;width: 100%;height: 100%;min-width: 320px;overflow: hidden;background-color: #fff;}
+
+/* ͷ������ */
+.search_header{position: relative;z-index: 100;height: 30px;background: #fff;padding: 7px 50px 7px 40px;border-bottom:1px solid #e4e4e4;}
+.search_header .back{z-index:2;position: absolute;top: 0;left: 0;height: 44px;padding-left: 40px;background: url(../images/arrow_left.png) no-repeat 15px center;background-size: auto 16px;font-size: 15px;}
+.search_header .search{height: 30px;border-radius: 40px;padding-left: 30px;position: relative;background: #e4e4e4;}
+.search_header .search .text{border-radius:40px;width: 100%;border: none;height: 20px;line-height: 20px;outline: none;font-size: 14px;padding: 5px 0;color: #b6b7b9;display: block;background: #e4e4e4;}
+.search_header .search .submit{width: 30px;height: 30px;position: absolute;left: 0;top: 0;background:#e4e4e4 url(../images/v4.5ico_43.png) center center no-repeat;background-size: 16px 16px;border:none;border-radius: 40px;}
+.search_header .menu{z-index:2;position:absolute;right:0;top:0;width: 40px;height:44px;background:url(../images/menu.png) no-repeat center;background-size:23px;line-height: 44px;font-size:14px;transition:background .3s;}
+.search_header .menu.active{background-image:url(../images/menu-active.png);background-size:16px;}
+.search_header .menu.active:after{content: " ";display: block;position: absolute;right: 12px;bottom: -1px;width: 16px;height: 8px;background:url(../images/connector.png) no-repeat center 0;}
+.new_header .t-nav{margin-top:44px;}
+
+
+
+/*�������ҳ*/
+/* header */
+.search-page body {background-color: #f2f2f2;}
+#head_search_box{width: 100%; position: fixed; top: 0;z-index: 5004;overflow: hidden;}
+.search_header .filtrate{background: none;color: #646464;}
+
+/* ���� */
+.hot_search{padding: 9px 0 8px;border-bottom: 1px solid #dcdcdc;}
+.hot_search h3{font-size: 14px;font-weight: normal;padding-left: 10px;height: 34px;line-height: 34px;}
+.hot_search ul{padding-left: 10px;padding-right: 5px;max-height: 74px;overflow: hidden;}
+.hot_search ul li{float: left;width: 33.3%;box-sizing: border-box;border:5px solid #f2f2f2;border-width: 0 5px 5px 0;}
+.hot_search ul li a{display:block;border:1px solid #ebebeb;padding: 0 6px;height: 32px;line-height: 32px;background-color: #fff;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;text-align: center;}
+@media screen and (min-width: 540px) {
+    .hot_search ul li {
+        width: 25%;
+    }
+}
+/**笔试真题——公司tab列表**/
+.writtenlist{border-bottom: 1px solid #E1E1E1;padding: 0.8rem;}
+
+/**笔试真题title*/
+.navbar div.nav_main {
+    line-height:3.35rem;
+    height:3rem;
+    border-bottom:1px solid #dfdfdf;
+    font-size:1rem;
+    text-align:center;
+    position:relative;
+    overflow:inherit;
+    font-weight: 600
+}
+
+.navbar a.order_c_back{cursor:pointer;position:absolute;left:1.5rem;top:0; overflow: hidden; display: block;height:4.35rem;}
+.navbar a.order_c_back img{width:1rem;height:1rem;margin:1.2rem 0}
+.navbar .order_tool{position:absolute;right:1rem;top:0;width:6rem;}
+.navbar img{cursor:pointer;width:2.2rem;}
+.navbar a.prd_order{ margin:0 auto; display:block; text-align:center;width: 74%;}
+.navbar a.prd_order img{ width:.6rem; height:.4rem; margin:0 0 0 .5rem;vertical-align:middle;cursor:pointer;}
+.navbar a.prd_order.trans_arrow img{-moz-transForm:scaleY(-1);-webkit-transform:scaleY(-1);-o-transform:scaleY(-1);transform:scaleY(-1);}
+.navbar a.o_more {background:url(../images/order/more.png) center no-repeat;background-size:2.25rem .65rem;cursor:pointer;position:absolute;right:1.5rem;top:0;height:4.35rem;width:2.25rem;}
+.navbar a.o_cancle {font-size:1.4rem;cursor:pointer;position:absolute;right:1.5rem;top:0;height:4.35rem;line-height:4.35rem;display:none}
+.navbar div.o_tools{ position:absolute; overflow:hidden;top:4.4rem; right:1.8rem; display:none}

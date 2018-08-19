@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="application-name" content="">
+    <title>发布帖子</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="version" content="">
+    <meta http-equiv="Cache-Control" content="must-revalidate,no-cache">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/addPost.css">
+
+</head>
+
+<body style="overflow: scroll;">
+
+<div class="viewport">
+    <!--页头-->
+    <header class="navbar">
+
+        <div class="nav_main">
+            <a class="prd_order trans_arrow">发布帖子</a>
+            <a class="order_c_back" href="javascript:;" onclick="backToCommunity()">
+                <img src="images/back.png">  <!--返回图标-->
+            </a>
+            <a class="order_c_like" href="javascript:;" onclick="publishPost()">
+                <img src="images/confirmPost.png">
+            </a>
+
+        </div>
+
+    </header>
+    <!--筛选导航栏-->
+    <section  name="主题选择" id="company" class="hot_search" style="margin-top:6rem">
+        <ul id="themeChoose" class="clearfix">
+            <li><a class="hover" href="javascript:;">面试交流</a></li>
+            <li><a class="" href="javascript:;">精品面经</a></li>
+            <li><a class="" href="javascript:;">笔试交流</a></li>
+            <li><a  class="" href="javascript:;">职业发展</a></li>
+            <li><a class=""  href="javascript:;">公司交流</a></li>
+
+        </ul>
+    </section><!-- 排序 -->
+
+
+
+    <section id="LivePresenter" style="background-color: #fff;padding: 0 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #E1E1E1;border-top:1px solid #E1E1E1 " >
+        <div id="userName" hidden="hidden"></div>
+        <p id="addPostTitle" contenteditable="true" aria-placeholder="请输入标题..." style="font-weight: bold;padding-left: 1rem">标题</p>
+        <hr>
+        <div  id="PresenterName">
+        </div>
+
+        <div id="PresenterIntroduction" style="font-size: 12px">
+            <p id="addPostContent" contenteditable="true" aria-placeholder="请输入内容..."
+               style="font-size: 13px;padding-left: 1rem;padding-right: 1rem">正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容
+                正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容
+                正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容
+               </p>
+
+        </div>
+    </section>
+
+</div>
+
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/fx.js" type="text/javascript"></script>
+<script src="js/event.js" type="text/javascript"></script>
+<script src="js/fx_methods.js" type="text/javascript"></script>
+<script src="js/order.js" type="text/javascript"></script>
+<script src="js/js_tracker.js"></script>
+<script src="js/getData.js" type="text/javascript"></script>
+<script src="js/addPost.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+
+</script>
+</div>
+
+</body>
+</html>

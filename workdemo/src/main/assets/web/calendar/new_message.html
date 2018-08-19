@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="application-name" content="">
+    <title>消费详情</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="version" content="ddtouch">
+    <meta http-equiv="Cache-Control" content="must-revalidate,no-cache">
+    <script src="js/zepto-1.1.6.min.js" type="text/javascript"></script>
+    <script src="js/fx.js" type="text/javascript"></script>
+    <script src="js/fastclick.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var sid = "d256b1d537fe186e53c0444399341c24";
+    </script>
+
+    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/timedropper.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/timedropper.css">
+    
+</head>
+<body style="height: 891px;"><script type="text/javascript">
+    var gifts = $.parseJSON('{"1100604422":{"maiyizengduo":[],"maiazengb":[],"huangou":[]}}');//console.log(gifts);
+    var hasChecked = "1";
+</script>
+<link rel="stylesheet" href="css/cart_v3.css">
+<header class="header" style="">
+        <a class="back c_back" style="color:#464646;" href="./index.html"></a>
+    <!-- <a class="back c_back" style="color:#464646;background:url(./images/back.png)">返回</a> -->
+    <div class="h_label" style="color:#464646;">新增消息提醒</div>
+    <nav class="t-nav">
+
+</nav></header>
+
+<div id="wrapper" >
+    <div class="viewport" id="scroller" style="-webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transform: translate(0px, 0px) translateZ(0px);">
+      
+        <section class="content">
+            <div class="block" id="">
+                <br>
+                <center><p style="font-size:16px">提醒事项</p></center>
+                <textarea id="reminder" placeholder="请输入提醒事项" rows="5" style="overflow:visible;resize:none;border:none;color: #555;width: 100%;padding: 3px 0px 3px 5px;margin-top: 2px;margin-right: 6px;margin-bottom: 16px;border: 1px solid #e5e5e5;background-color:transparent;height: auto;line-height:15px;outline: 0;"></textarea>
+                <center>
+                    <form type="other" >
+
+                        <input type="radio" name="item" value="不提前" checked>
+                        <label for="item1"></label>
+                        <span>不提前</span>
+                        &nbsp;
+                        <input type="radio" name="item" value="提前15分钟">
+                        <label for="item2"></label>
+                        <span>提前15分钟</span>
+                        &nbsp;
+                        <input type="radio" name="item" value="提前30分钟" >
+                        <label for="item1"></label>
+                        <span>提前30分钟</span>
+                        &nbsp;
+                        <input type="radio" name="item" value="提前60分钟" >
+                        <label for="item1"></label>
+                        <span>提前60分钟</span>
+                    </form>
+                </center>
+
+            </div>
+
+
+            <div class="block" id="">
+                <center>
+                    <br>
+
+                    <p style="font-size:16px">提醒时间设置</p>
+                    <br><br><br><br><br><br>
+                    <input type="text" id="alarm" style="font-size:35px;text-align:center;border-color:black;color:#008CBA;border:1px;" />
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                </center>
+                <script>$("#alarm").timeDropper();</script>
+
+            </div>
+            <center>
+                <br>
+                <button type="button" id="res-btn" style="border-radius:15px;background-color: #008CBA; border: none;color: white;padding: 15px 32px; text-align: center; text-decoration: none;display: inline-block;font-size: 16px;">确认</button>
+                <br><br>
+            </center>
+        </section>
+
+</div>
+
+<script type="text/javascript" src="js/newMessage.js"></script>
+
+        <!-- <form id="cart_form" action="" method="post">
+            <input type="hidden" value="touch" name="user_client">
+            <input type="hidden" value="1.0" name="client_version">
+            <input type="hidden" value="get_order_flow" name="action">
+            <input type="hidden" value="" name="union_id">
+            <input type="hidden" value="20151007171938214237638454188786121" name="permanent_id">
+            <input type="hidden" value="0" name="shop_id">
+            <input type="hidden" value="d256b1d537fe186e53c0444399341c24" name="udid">
+            <input type="hidden" value="1444445736" name="timestamp">
+            <input type="hidden" value="12a421d5328d6fe614213acfd06f0442" name="time_code">
+            <input type="hidden" value="ckadd" name="ref">
+        </form>
+        </footer> -->
+    </div>
+
+  
+</body>
+</html>

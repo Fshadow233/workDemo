@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title></title>
+    	<meta name="author" content="m.jd.com">
+        			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	            <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+				<link rel="stylesheet" type="text/css" href="css/base2013.css" charset="gbk">
+						<link rel="stylesheet" type="text/css" href="css/myhome1.01.css" charset="gbk">
+					
+						<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="js/spin.min.js"></script><style></style>
+		
+		<!-- 对url处理 -->
+		<script type="text/javascript" src="js/ojbUrl.js"></script>
+		
+		<!--数据埋点-->
+		<script type="text/javascript" src="js/pingJS.1.0.js"></script>
+		
+		<!--通用头尾css js add by lizhenyou 2015-4-17-->
+		<link rel="stylesheet" type="text/css" href="css/header.css" charset="utf-8">
+
+	<script type="text/javascript" src="js/m_common.js"></script>
+	<link rel="stylesheet" type="text/css" charset="utf-8" href="css/header(1).css">
+	<script type="text/javascript" src="js/downloadAppPlugIn.js"></script>
+
+
+    <link rel="stylesheet" href="css/amazeui.min.css">
+	
+	<style>
+        html { font-size: 10px; }
+        html,body { background-color: #f0eff4; }
+        body { padding-bottom: 0;margin: 0; }
+        * { padding: 0;margin: 0; }
+        header {position: fixed;top: 0;left: 0;z-index: 999;width: 100%;height: 49px; background-color: #333; color: #fff;}
+        header .back { position: absolute;top: 0;left: 0; display: inline-block;padding-left: 5px; font-size: 30px; }
+        header p { margin: 0;line-height: 49px; font-size: 16px;text-align: center; }
+        .register { padding: 8px 6px; font-size: 14px;}
+        .res-item {position: relative;  width: 100%; border-radius: 4px; margin-bottom: 8px;background-color: #fff; }
+        .res-icon {position: absolute;left: 8px;top: 5px;z-index: 100; display: inline-block;font-size: 18px;color: #9c9c9c; }
+        .res-item .input-item {display: inline-block;width: 100%;padding-left: 31px;height: 40px;border: none; font-size: inherit;}
+        .res-item .input-item:focus { 
+            outline-offset: 0;
+            outline: -webkit-focus-ring-color auto -2px;
+            background-color: #fefffe;
+            border: 1px solid #008CBA;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(226,25,69,.3);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(226,25,69,0.3);
+        }
+        .res-item .input-item:focus + .res-icon { color: #008CBA; }
+        .yanzhengma {position: absolute;right: 10px;top: 5px; z-index: 100;  display: inline-block;padding: 0.5rem 0.8rem;font-size: 14px; border: none;background-color: #008CBA;color: #fff;border-radius: 8px; }
+        .yanzhengma:disabled { background-color: #ddd; }
+        .res-btn { margin-top: 10px;padding: 0 5px; }
+        .res-btn button {   background-color: #008CBA;font-size: 14px; color: #fff;border-radius: 8px; }
+        .res-btn button:focus { color: #fff; }
+    </style>
+	
+</head>
+
+<body id="body">
+<a name="top"></a>
+
+
+<style type="text/css">
+	.current-half-width li{width:50% !important;}
+</style>
+
+<div class="common-wrapper">
+    
+        <div class="head-img">
+            <span class="my-img" style="background-image:url('images/职道.png')"></span>    		
+            <p></p>
+            <p>登陆职道，体验更多功能</p>
+        </div>
+    		
+    		<div class="register">
+        <div class="res-item">
+            <input onblur="" type="tel" placeholder="手机号" class="input-item mobile" id="teleNum">
+            <i class="res-icon am-icon-phone"></i>
+        </div>
+
+        <div class="res-item">
+            <input type="text" placeholder="验证码" class="input-item yanzheng" id="valNum">  
+            <i class="res-icon am-icon-mobile"></i>
+            <button type="button" class="yanzhengma">获取验证码</button>
+        </div>
+        <div class="res-item">
+            <input type="passWord" placeholder="密码" class="input-item mima" id="pwd">
+            <i class="res-icon am-icon-check-square-o"></i>
+        </div>
+        <div class="res-item">
+            <input type="passWord" placeholder="确认密码" class="input-item repeatmima" id="repwd">
+            <i class="res-icon am-icon-check-circle-o"></i>
+        </div>
+     
+        <div class="res-btn">
+        <br>
+         <center>
+            <button type="button" id="res-btn" class="am-btn am-btn-block">注册</button>
+         </center>
+         <br>
+         <br><br><br><br><br>
+        </div>
+    </div>
+		
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/static/wechatMember/js/amazeui.ie8polyfill.min.js"></script>
+		
+    
+</div>
+
+<div class="common-wrapper">
+
+<link rel="stylesheet" type="text/css" href="css/guessing.css" charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/list.css" charset="utf-8">
+
+<script type="text/javascript" src="js/jdslider.src.js"></script>
+<script type="text/javascript" src="js/news1.0.js"></script>
+<script type="text/javascript" src="js/regist.js"></script>
+
+	
+    <div style="display:none;">
+        </div>
+
+
+
+</body>
+</html><!--LHC-2015-09-22-->
